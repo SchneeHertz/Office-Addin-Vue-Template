@@ -4,8 +4,8 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="日本特殊客户测试列表生成工具"/>
-  <Description DefaultValue="JP Case Task List Generate Tool."/>
+  <DisplayName DefaultValue="AddinTemplate"/>
+  <Description DefaultValue="description"/>
   <IconUrl DefaultValue="http://localhost:8090/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="http://localhost:8090/assets/icon-80.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
@@ -32,8 +32,8 @@
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
             <CustomTab id="Addition">
               <Label resid="Addition.Label" />
-              <Group id="附加功能">
-                <Label resid="附加功能.Label" />
+              <Group id="AddinPanel">
+                <Label resid="AddinPanel.Label" />
                 <Icon>
                   <bt:Image size="16" resid="Icon.16x16" />
                   <bt:Image size="32" resid="Icon.32x32" />
@@ -74,9 +74,9 @@
       </bt:Urls>
       <bt:ShortStrings>
         <!-- <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!" /> -->
-        <bt:String id="Addition.Label" DefaultValue="附加功能" />
-        <bt:String id="附加功能.Label" DefaultValue="附加功能" />
-        <bt:String id="TaskpaneButton.Label" DefaultValue="任务窗口" />
+        <bt:String id="Addition.Label" DefaultValue="AddinPanel" />
+        <bt:String id="AddinPanel.Label" DefaultValue="AddinPanel" />
+        <bt:String id="TaskpaneButton.Label" DefaultValue="TaskPane" />
       </bt:ShortStrings>
       <bt:LongStrings>
         <!-- <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded succesfully. Go to the HOME tab and click the 'Show Taskpane' button to get started." /> -->
