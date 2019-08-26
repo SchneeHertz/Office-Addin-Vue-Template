@@ -18,7 +18,7 @@ export default {
       Excel.run(async (context) => {
         let sheetName = 'Sheet1'
         let worksheet = context.workbook.worksheets.getItem(sheetName);
-        let sourceRange = worksheet.getRange("B2:E2")
+        let sourceRange = worksheet.getRange("B2")
         sourceRange.load("format/fill/color, format/font/name, format/font/color")
 
         
