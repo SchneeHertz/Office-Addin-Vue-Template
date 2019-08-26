@@ -1,6 +1,19 @@
-# Office-Addin-Vue-Template
+# Office-Addin-Vue-Template for Excel
 
 This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane.
+
+## Install
+
+Install dependencies:  
+```npm install```
+
+Copy files in ```./node_modules/@microsoft/office-js/dist/``` to ```./assets/office-js/```
+
+Run dev-server:  
+```npm run dev-server```
+
+Add addin's manifest.xml to your Excel App, refer to [Sideload Office Add-ins for testing](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)
+
 
 ## JavaScript
 
