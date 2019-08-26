@@ -1,10 +1,12 @@
-# Office-Addin-TaskPane-JS
+# Office-Addin-Vue-Template
 
-This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. You can also use this repository as a sample to base your own project from if you choose not to use the generator. 
+This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane.
 
 ## JavaScript
 
-This template is written using JavaScript. For the [TypeScript](http://www.typescriptlang.org/) version of this template, go to [Office-Addin-TaskPane](https://github.com/OfficeDev/Office-Addin-TaskPane).
+This template is written using JavaScript. It added some package: vue.js, element-ui, stylus, and configured for webpack.  
+If you want to add more package, refer to [Build an Office Add-in using Vue.js](https://github.com/OfficeDev/TrainingContent/tree/master/OfficeAddin/05%20Using%20modern%20JavaScript/Demos/03%20Office%20Add-in%20using%20VueJS)
+
 
 ## Debugging
 
@@ -25,7 +27,6 @@ Questions about Microsoft Office 365 development in general should be posted to 
 * [Office add-in documentation](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
 * More Office Add-in samples at [OfficeDev on Github](https://github.com/officedev)
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## Copyright
 
