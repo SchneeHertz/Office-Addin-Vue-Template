@@ -9,7 +9,7 @@
   "config": {
     "app-to-debug": "excel",
     "app-type-to-debug": "desktop",
-    "dev-server-port": 8090
+    "dev-server-port": 8084
   },
   "scripts": {
     "build": "webpack -p --mode production --https false",
