@@ -87,6 +87,7 @@ module.exports = async (env, options) => {
       },
       disableHostCheck: true,
       // https: (options.https !== undefined) ? options.https : await devCerts.getHttpsServerOptions(),
+      host: '0.0.0.0',
       port: process.env.npm_package_config_dev_server_port || 3000
     }
   };
